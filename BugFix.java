@@ -1,9 +1,23 @@
-public class BugFix{
-Scanner in=new Scanner(System.in);
-  int id;
-  public static void main(String[]args){
+import java.util.Scanner;
+
+public class BugFix
+{  
+
+   void meth1()
+   {
+    Scanner in=new Scanner(System.in);
+    System.out.print("Enter the id : ");
+    int id=in.nextInt();
+    System.out.println("Entered id is: "+id);
+    in.close();
+   }
+   
+  public static void main(String[]args)
+  {
+    
     BugFix b=new BugFix();
-    id=in.nextInt();
-    System.out.println()
-}
+     b.meth1();
+  }
+  
+
 }
