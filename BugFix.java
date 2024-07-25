@@ -1,9 +1,11 @@
+import java.util.Scanner;
 public class BugFix{
-Scanner in=new Scanner(System.in);
+static Scanner in=new Scanner(System.in);
   int id;
   public static void main(String[]args){
+    System.out.println("enter id");
     BugFix b=new BugFix();
-    id=in.nextInt();
-    System.out.println()
+    int id=in.nextInt();
+    System.out.println(id);
 }
 }
