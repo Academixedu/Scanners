@@ -1,8 +1,9 @@
 import java.util.Scanner;
 public class ScanArr{
 // prepare a function with return type int[]
-public int function(int a){
-  return a;
+public static int[] function(){
+  return null;
+  
 }
   public static void main(String[]args){
 // Call the Function here and initialize an Array using scanner
@@ -14,5 +15,8 @@ System.out.println("enter a");
   System.out.println("enter array:"+i);
   Array[i]=b.nextInt();
  }    
+ for (int j :Array){
+  System.out.println(j);
+ }
   }
 }
