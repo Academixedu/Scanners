@@ -11,7 +11,7 @@ public class ScanArr{
     System.out.println("Enter the elements:");
     for (int i = 0; i < m; i++) 
     {
-      arr[i] = sc.nextInt();  
+      arr[i] = sc.nextInt();
     }
     return arr; 
   }
