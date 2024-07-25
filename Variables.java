@@ -11,18 +11,19 @@ public class Variables{
   double salary;
   char gender;
   boolean pass;
+  
   public void var(){
   Scanner sc = new Scanner(System.in);
   System.out.println("enter id:");
-  int a =sc.nextInt();
+  int id =sc.nextInt();
   System.out.println("enter name:");
-  String n =sc.next();
+  String name =sc.next();
   System.out.println("enter salary:");
-  double s =sc.nextDouble();
+  double salary=sc.nextDouble();
   System.out.println("enter gender:");
-  char g =sc.next().charAt(0);
+  char gender=sc.next().charAt(0);
   System.out.println("enter pass:");
-  boolean p =sc.hasNextBoolean();
+  boolean pass =sc.hasNextBoolean();
   }
 
 
@@ -31,5 +32,11 @@ public static void main(String[]args){
 // Call the varibles in the main method and print them
 Variables f = new Variables();
 f.var();
+System.out.println("id is "+f.id);
+System.out.println("name is is "+f.name);
+System.out.println("salary is "+f.salary);
+System.out.println("gender  is "+f.gender);
+System.out.println("pass is "+f.pass);
 }
 }
+  
